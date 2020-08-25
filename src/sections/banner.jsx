@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Navbar, Nav } from 'react-bootstrap';
 import LisbonVideo from '../video/lisbonvideo.mp4';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 class Banner extends Component {
 	render() {
 		return (
@@ -12,13 +15,24 @@ class Banner extends Component {
 					<div className="video-overlay" />
 				</div>
 				<header className="navbar-container">
-					<Navbar bg="dark" variant="transparent">
+					<Navbar collapseOnSelect expand="lg" bg="light" variant="transparent">
 						<Navbar.Brand href="#home">Navbar</Navbar.Brand>
-						<Nav className="mr-auto">
-							<Nav.Link href="#home">Home</Nav.Link>
-							<Nav.Link href="#features">Features</Nav.Link>
-							<Nav.Link href="#pricing">Pricing</Nav.Link>
-						</Nav>
+						<Navbar.Toggle aria-controls="responsive-navbar-nav">
+							<FontAwesomeIcon icon={faBars} className="burguer-icon" />
+						</Navbar.Toggle>
+						<Navbar.Collapse id="responsive-navbar-nav">
+							<Nav className="mr-auto">
+								<Nav.Link href="#home" className="menu-link">
+									Home
+								</Nav.Link>
+								<Nav.Link href="#features" className="menu-link">
+									Features
+								</Nav.Link>
+								<Nav.Link href="#pricing" className="menu-link">
+									Pricing
+								</Nav.Link>
+							</Nav>
+						</Navbar.Collapse>
 					</Navbar>
 				</header>
 				<div className="banner-content">

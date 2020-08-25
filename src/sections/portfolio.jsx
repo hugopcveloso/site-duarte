@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
+import portfolioData from '../data/portfolio-data.js';
+
 class Portfolio extends Component {
 	render() {
 		return (
 			<div className="portfolio-container">
 				<Carousel>
+					{/* // const stackList = filteringArrays(filterStack).map((tech) => <Tech tech={tech} key={tech.id} />);
+
+		// return <div className="stack-list"> {stackList} </div>; */}
+
 					<Carousel.Item>
 						<img className="d-block w-100" src="holder.js/800x400?text=First slide&bg=373940" alt="First slide" />
 						<Carousel.Caption>

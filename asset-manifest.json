@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/site-duarte/static/css/main.269a2d52.chunk.css",
+    "main.js": "/site-duarte/static/js/main.6971c4de.chunk.js",
+    "main.js.map": "/site-duarte/static/js/main.6971c4de.chunk.js.map",
+    "runtime-main.js": "/site-duarte/static/js/runtime-main.bd65abcd.js",
+    "runtime-main.js.map": "/site-duarte/static/js/runtime-main.bd65abcd.js.map",
+    "static/js/2.7e94bec4.chunk.js": "/site-duarte/static/js/2.7e94bec4.chunk.js",
+    "static/js/2.7e94bec4.chunk.js.map": "/site-duarte/static/js/2.7e94bec4.chunk.js.map",
+    "index.html": "/site-duarte/index.html",
+    "precache-manifest.7c595d3a2a49ce6310a6d8d4eb4bddd3.js": "/site-duarte/precache-manifest.7c595d3a2a49ce6310a6d8d4eb4bddd3.js",
+    "service-worker.js": "/site-duarte/service-worker.js",
+    "static/css/main.269a2d52.chunk.css.map": "/site-duarte/static/css/main.269a2d52.chunk.css.map",
+    "static/js/2.7e94bec4.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.7e94bec4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/site-duarte/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd65abcd.js",
+    "static/js/2.7e94bec4.chunk.js",
+    "static/css/main.269a2d52.chunk.css",
+    "static/js/main.6971c4de.chunk.js"
+  ]
+}

@@ -4,12 +4,13 @@
 	"private": true,
 	"homepage": "http://hugopcveloso.github.io/site-duarte",
 	"dependencies": {
-		"@material-ui/core": "^4.11.0",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
 		"@testing-library/user-event": "^7.1.2",
+		"bootstrap": "^4.5.2",
 		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
+		"react-bootstrap": "^1.3.0",
 		"react-dom": "^16.13.1",
 		"react-scripts": "3.4.3"
 	},
@@ -25,8 +26,16 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	},
 	"devDependencies": {
 		"gh-pages": "^3.1.0"

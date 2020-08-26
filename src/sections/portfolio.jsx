@@ -1,39 +1,32 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import portfolioData from '../data/portfolio-data.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 class Portfolio extends Component {
 	render() {
+		const myHouses = portfolioData.map((house) => {
+			return (
+				<Carousel.Item key={house.id}>
+					<div className="images d-flex">
+						<img className="d-block w-50" src={require(`../images/${house.image}`)} alt="First slide" />
+						<img className="d-block w-50" src={require(`../images/${house.imagealt}`)} alt="First slide" />
+					</div>
+					<Carousel.Caption>
+						<h3>{house.price}</h3>
+						<p>{house.description}</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+			);
+		});
+		const prevIcon = <FontAwesomeIcon icon={faChevronLeft} className="carousel-prev" />;
+		const nextIcon = <FontAwesomeIcon icon={faChevronRight} className="carousel-next" />;
+
 		return (
 			<div className="portfolio-container">
-				<Carousel>
-					{/* // const stackList = filteringArrays(filterStack).map((tech) => <Tech tech={tech} key={tech.id} />);
-
-		// return <div className="stack-list"> {stackList} </div>; */}
-
-					<Carousel.Item>
-						<img className="d-block w-100" src="holder.js/800x400?text=First slide&bg=373940" alt="First slide" />
-						<Carousel.Caption>
-							<h3>First slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-						</Carousel.Caption>
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Third slide" />
-
-						<Carousel.Caption>
-							<h3>Second slide label</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</Carousel.Caption>
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide" />
-
-						<Carousel.Caption>
-							<h3>Third slide label</h3>
-							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-						</Carousel.Caption>
-					</Carousel.Item>
+				<Carousel nextIcon={nextIcon} prevIcon={prevIcon}>
+					{myHouses}
 				</Carousel>
 			</div>
 		);

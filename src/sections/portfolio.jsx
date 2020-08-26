@@ -9,13 +9,17 @@ class Portfolio extends Component {
 		const myHouses = portfolioData.map((house) => {
 			return (
 				<Carousel.Item key={house.id}>
-					<div className="images d-flex">
-						<img className="d-block w-50" src={require(`../images/${house.image}`)} alt="First slide" />
-						<img className="d-block w-50" src={require(`../images/${house.imagealt}`)} alt="First slide" />
+					<p className="sold-tag">{house.sold ? 'Vendido' : 'Disponível'} </p>
+
+					<div className="image-overlay d-flex">
+						<img className="carousel-image" src={require(`../images/${house.image}`)} alt="First slide" />
+						<img className=" carousel-image-alt" src={require(`../images/${house.imagealt}`)} alt="First slide" />
 					</div>
 					<Carousel.Caption>
-						<h3>{house.price}</h3>
-						<p>{house.description}</p>
+						<div className="carousel-caption-container">
+							<h3>{house.price}</h3>
+							<p>{house.description}</p>
+						</div>
 					</Carousel.Caption>
 				</Carousel.Item>
 			);

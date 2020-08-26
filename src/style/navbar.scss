@@ -31,3 +31,9 @@
 	padding-left: 40px;
 	padding-right: 0px;
 }
+
+@media (max-width: 990px) {
+	.navbar-collapse {
+		top: 65px;
+	}
+}

@@ -63,6 +63,13 @@
 }
 
 @media (max-width: 600px) {
+	.video-container {
+		padding: 10px;
+	}
+
+	.video-overlay-container {
+		padding: 10px;
+	}
 	.centering-buttons-container {
 		padding: 30px;
 		display: flex;

@@ -7,3 +7,9 @@
 	background-color: red;
 	border: none;
 }
+@media (max-width: 600px) {
+	.padded-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

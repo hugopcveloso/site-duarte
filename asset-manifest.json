@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/site-duarte/static/css/main.fc53a892.chunk.css",
+    "main.css": "/site-duarte/static/css/main.247373ab.chunk.css",
     "main.js": "/site-duarte/static/js/main.fcad0517.chunk.js",
     "main.js.map": "/site-duarte/static/js/main.fcad0517.chunk.js.map",
     "runtime-main.js": "/site-duarte/static/js/runtime-main.bd65abcd.js",
@@ -8,9 +8,9 @@
     "static/js/2.8cc1570e.chunk.js": "/site-duarte/static/js/2.8cc1570e.chunk.js",
     "static/js/2.8cc1570e.chunk.js.map": "/site-duarte/static/js/2.8cc1570e.chunk.js.map",
     "index.html": "/site-duarte/index.html",
-    "precache-manifest.61ffd859e2243557199d2950946b2c5c.js": "/site-duarte/precache-manifest.61ffd859e2243557199d2950946b2c5c.js",
+    "precache-manifest.7aa487c3a1d6cdc556868cd20fb8b731.js": "/site-duarte/precache-manifest.7aa487c3a1d6cdc556868cd20fb8b731.js",
     "service-worker.js": "/site-duarte/service-worker.js",
-    "static/css/main.fc53a892.chunk.css.map": "/site-duarte/static/css/main.fc53a892.chunk.css.map",
+    "static/css/main.247373ab.chunk.css.map": "/site-duarte/static/css/main.247373ab.chunk.css.map",
     "static/js/2.8cc1570e.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.8cc1570e.chunk.js.LICENSE.txt",
     "static/media/cozinhacincoout.jpg": "/site-duarte/static/media/cozinhacincoout.8d32ca8d.jpg",
     "static/media/doubledimage.jpg": "/site-duarte/static/media/doubledimage.dc0033a0.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.bd65abcd.js",
     "static/js/2.8cc1570e.chunk.js",
-    "static/css/main.fc53a892.chunk.css",
+    "static/css/main.247373ab.chunk.css",
     "static/js/main.fcad0517.chunk.js"
   ]
 }

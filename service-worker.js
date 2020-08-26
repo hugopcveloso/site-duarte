@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/site-duarte/precache-manifest.61ffd859e2243557199d2950946b2c5c.js"
+  "/site-duarte/precache-manifest.7aa487c3a1d6cdc556868cd20fb8b731.js"
 );
 
 self.addEventListener('message', (event) => {

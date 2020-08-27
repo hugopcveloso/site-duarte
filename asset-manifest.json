@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/site-duarte/static/css/main.bccb6f34.chunk.css",
-    "main.js": "/site-duarte/static/js/main.fcad0517.chunk.js",
-    "main.js.map": "/site-duarte/static/js/main.fcad0517.chunk.js.map",
+    "main.css": "/site-duarte/static/css/main.be5be4c5.chunk.css",
+    "main.js": "/site-duarte/static/js/main.72786e78.chunk.js",
+    "main.js.map": "/site-duarte/static/js/main.72786e78.chunk.js.map",
     "runtime-main.js": "/site-duarte/static/js/runtime-main.bd65abcd.js",
     "runtime-main.js.map": "/site-duarte/static/js/runtime-main.bd65abcd.js.map",
     "static/js/2.8cc1570e.chunk.js": "/site-duarte/static/js/2.8cc1570e.chunk.js",
     "static/js/2.8cc1570e.chunk.js.map": "/site-duarte/static/js/2.8cc1570e.chunk.js.map",
     "index.html": "/site-duarte/index.html",
-    "precache-manifest.63ba08da447c2763b17c18458040d323.js": "/site-duarte/precache-manifest.63ba08da447c2763b17c18458040d323.js",
+    "precache-manifest.68c426f6fc6c523b793087891e2a44b0.js": "/site-duarte/precache-manifest.68c426f6fc6c523b793087891e2a44b0.js",
     "service-worker.js": "/site-duarte/service-worker.js",
-    "static/css/main.bccb6f34.chunk.css.map": "/site-duarte/static/css/main.bccb6f34.chunk.css.map",
+    "static/css/main.be5be4c5.chunk.css.map": "/site-duarte/static/css/main.be5be4c5.chunk.css.map",
     "static/js/2.8cc1570e.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.8cc1570e.chunk.js.LICENSE.txt",
     "static/media/cozinhacincoout.jpg": "/site-duarte/static/media/cozinhacincoout.8d32ca8d.jpg",
     "static/media/doubledimage.jpg": "/site-duarte/static/media/doubledimage.dc0033a0.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.bd65abcd.js",
     "static/js/2.8cc1570e.chunk.js",
-    "static/css/main.bccb6f34.chunk.css",
-    "static/js/main.fcad0517.chunk.js"
+    "static/css/main.be5be4c5.chunk.css",
+    "static/js/main.72786e78.chunk.js"
   ]
 }

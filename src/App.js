@@ -4,6 +4,7 @@ import Banner from './sections/banner';
 import { Button } from 'react-bootstrap';
 import Portfolio from './sections/portfolio';
 import About from './sections/about';
+import AreaSection from './sections/area';
 function App() {
 	return (
 		<div className="App">
@@ -13,6 +14,7 @@ function App() {
 			<div className="padded-container">
 				<Portfolio />
 				<About />
+				<AreaSection />
 			</div>
 		</div>
 	);

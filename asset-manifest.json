@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/site-duarte/static/css/main.be5be4c5.chunk.css",
-    "main.js": "/site-duarte/static/js/main.72786e78.chunk.js",
-    "main.js.map": "/site-duarte/static/js/main.72786e78.chunk.js.map",
+    "main.css": "/site-duarte/static/css/main.4aae7ccc.chunk.css",
+    "main.js": "/site-duarte/static/js/main.5bebc527.chunk.js",
+    "main.js.map": "/site-duarte/static/js/main.5bebc527.chunk.js.map",
     "runtime-main.js": "/site-duarte/static/js/runtime-main.bd65abcd.js",
     "runtime-main.js.map": "/site-duarte/static/js/runtime-main.bd65abcd.js.map",
-    "static/js/2.8cc1570e.chunk.js": "/site-duarte/static/js/2.8cc1570e.chunk.js",
-    "static/js/2.8cc1570e.chunk.js.map": "/site-duarte/static/js/2.8cc1570e.chunk.js.map",
+    "static/js/2.52e914da.chunk.js": "/site-duarte/static/js/2.52e914da.chunk.js",
+    "static/js/2.52e914da.chunk.js.map": "/site-duarte/static/js/2.52e914da.chunk.js.map",
     "index.html": "/site-duarte/index.html",
-    "precache-manifest.68c426f6fc6c523b793087891e2a44b0.js": "/site-duarte/precache-manifest.68c426f6fc6c523b793087891e2a44b0.js",
+    "precache-manifest.c8b535a5435aa893966de4c152894886.js": "/site-duarte/precache-manifest.c8b535a5435aa893966de4c152894886.js",
     "service-worker.js": "/site-duarte/service-worker.js",
-    "static/css/main.be5be4c5.chunk.css.map": "/site-duarte/static/css/main.be5be4c5.chunk.css.map",
-    "static/js/2.8cc1570e.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.8cc1570e.chunk.js.LICENSE.txt",
+    "static/css/main.4aae7ccc.chunk.css.map": "/site-duarte/static/css/main.4aae7ccc.chunk.css.map",
+    "static/js/2.52e914da.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.52e914da.chunk.js.LICENSE.txt",
     "static/media/cozinhacincoout.jpg": "/site-duarte/static/media/cozinhacincoout.8d32ca8d.jpg",
     "static/media/doubledimage.jpg": "/site-duarte/static/media/doubledimage.dc0033a0.jpg",
     "static/media/fotoperfilduarte.jpg": "/site-duarte/static/media/fotoperfilduarte.54d81976.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bd65abcd.js",
-    "static/js/2.8cc1570e.chunk.js",
-    "static/css/main.be5be4c5.chunk.css",
-    "static/js/main.72786e78.chunk.js"
+    "static/js/2.52e914da.chunk.js",
+    "static/css/main.4aae7ccc.chunk.css",
+    "static/js/main.5bebc527.chunk.js"
   ]
 }

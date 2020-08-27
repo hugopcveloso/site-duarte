@@ -16,7 +16,9 @@ class Banner extends Component {
 				</div>
 				<header className="navbar-container">
 					<Navbar collapseOnSelect expand="lg" bg="light" variant="transparent">
-						<Navbar.Brand href="#home">Navbar</Navbar.Brand>
+						<Navbar.Brand href="#home" id="navbar-logo">
+							Duarte <br /> Veloso
+						</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav">
 							<FontAwesomeIcon icon={faBars} className="burguer-icon" />
 						</Navbar.Toggle>

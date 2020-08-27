@@ -13,31 +13,31 @@
 
 #about-photo {
 	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.377);
-
 	width: 100%;
 	img {
 	}
 }
 
 #about-text-container {
-	width: 40%;
+	width: 45%;
 	padding-right: 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
 	p {
 		font-size: 20px;
+		margin-bottom: 0px;
 	}
 	h1 {
+		margin-top: 15px;
+		font-size: 40px;
+		margin-bottom: 16px;
 		font-style: italic;
 		font-weight: 500;
 	}
 }
 #about-icons-container {
+	margin-top: 10%;
 	display: grid;
-	grid-column-gap: 160px;
-	grid-row-gap: 80px;
+	grid-row-gap: 60px;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 }
@@ -47,9 +47,19 @@
 	font-size: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
+	#about-icons-container {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px) {
 	#about-image-container {
 		width: 100%;
+	}
+
+	#about-icons-container {
+		display: grid;
 	}
 	#about-text-container {
 		margin-top: 20px;

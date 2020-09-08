@@ -8,8 +8,10 @@ class AreaList extends Component {
 			return (
 				<li
 					key={area.id}
-					className={area.id == clickedId ? 'area-item active-area' : 'area-item'}
-					onClick={() => handleClick(area.id)}
+					className={area.id === clickedId ? 'area-item active-area' : 'area-item'}
+					onClick={() => {
+						handleClick(area.id);
+					}}
 				>
 					{area.name}
 				</li>

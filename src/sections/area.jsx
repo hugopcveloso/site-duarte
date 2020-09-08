@@ -1,26 +1,36 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import AreaList from '../components/area-list';
 import AreaInfo from '../components/area-info';
+import { CSSTransition, SwitchTransition } from 'react-transition-group';
 
-class AreaSection extends Component {
-	state = { clickedId: 1 };
-	handleClick = (areaId) => {
-		this.setState({ clickedId: areaId });
+const AreaSection = (props) => {
+	const [ inProp, setInProp ] = useState(false);
+	const [ clickedId, setClickedId ] = useState(1);
+
+	const handleClick = (areaId) => {
+		// this.setState({ clickedId: areaId });
+		setClickedId(areaId);
 	};
 
-	render() {
-		return (
-			<div className="area-wrapper">
-				<div id="area-container">
-					{/* Fazer um map do area-list-data.
+	const setInProps = () => {
+		setInProp(true);
+	};
+
+	return (
+		<div className="area-wrapper">
+			{/* Fazer um map do area-list-data.
 			onde há um on-click, e em cada on-click
 			é enviado o  para o parent */}
-					<AreaList handleClick={this.handleClick} clickedId={this.state.clickedId} />
-					<AreaInfo clickedId={this.state.clickedId} />
-				</div>
+			<div id="area-container">
+				<AreaList handleClick={handleClick} clickedId={clickedId} setInProps={setInProps} />
+				<SwitchTransition>
+					<CSSTransition key={clickedId} timeout={1000} appear={false} in={inProp} classNames="my-node">
+						<AreaInfo clickedId={clickedId} className="area-info-component" />
+					</CSSTransition>
+				</SwitchTransition>
 			</div>
-		);
-	}
-}
+		</div>
+	);
+};
 
 export default AreaSection;

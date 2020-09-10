@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72512d01b63374beee2401b88a1f48be",
+    "revision": "6810eee74a6973598b771bb6dbcb0980",
     "url": "/site-duarte/index.html"
   },
   {
-    "revision": "37e3ff46c3cf8c2ef25f",
-    "url": "/site-duarte/static/css/main.19b8431e.chunk.css"
+    "revision": "d8c9b3a09f97a2bea72f",
+    "url": "/site-duarte/static/css/main.557894bb.chunk.css"
   },
   {
-    "revision": "0520b3576125ac30e075",
-    "url": "/site-duarte/static/js/2.7d572cec.chunk.js"
+    "revision": "244a55497d7765c3baf0",
+    "url": "/site-duarte/static/js/2.e3dee7c4.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/site-duarte/static/js/2.7d572cec.chunk.js.LICENSE.txt"
+    "url": "/site-duarte/static/js/2.e3dee7c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37e3ff46c3cf8c2ef25f",
-    "url": "/site-duarte/static/js/main.35b4c653.chunk.js"
+    "revision": "d8c9b3a09f97a2bea72f",
+    "url": "/site-duarte/static/js/main.b4f0c445.chunk.js"
   },
   {
     "revision": "f782f8103b311b72b04c",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d1d94e854ba03c20ae1439e83404b21c",
     "url": "/site-duarte/static/media/duarte-cut.d1d94e85.jpg"
+  },
+  {
+    "revision": "88556886aee06fbc1c83bd8baab40323",
+    "url": "/site-duarte/static/media/form-background.88556886.jpg"
   },
   {
     "revision": "54d819761ed299a3c80db20ec48fb14f",

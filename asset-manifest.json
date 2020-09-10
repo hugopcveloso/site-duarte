@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/site-duarte/static/css/main.19b8431e.chunk.css",
-    "main.js": "/site-duarte/static/js/main.35b4c653.chunk.js",
-    "main.js.map": "/site-duarte/static/js/main.35b4c653.chunk.js.map",
+    "main.css": "/site-duarte/static/css/main.557894bb.chunk.css",
+    "main.js": "/site-duarte/static/js/main.b4f0c445.chunk.js",
+    "main.js.map": "/site-duarte/static/js/main.b4f0c445.chunk.js.map",
     "runtime-main.js": "/site-duarte/static/js/runtime-main.bd65abcd.js",
     "runtime-main.js.map": "/site-duarte/static/js/runtime-main.bd65abcd.js.map",
-    "static/js/2.7d572cec.chunk.js": "/site-duarte/static/js/2.7d572cec.chunk.js",
-    "static/js/2.7d572cec.chunk.js.map": "/site-duarte/static/js/2.7d572cec.chunk.js.map",
+    "static/js/2.e3dee7c4.chunk.js": "/site-duarte/static/js/2.e3dee7c4.chunk.js",
+    "static/js/2.e3dee7c4.chunk.js.map": "/site-duarte/static/js/2.e3dee7c4.chunk.js.map",
     "index.html": "/site-duarte/index.html",
-    "precache-manifest.fb70e322b6c9c948e02b68bbacc25a79.js": "/site-duarte/precache-manifest.fb70e322b6c9c948e02b68bbacc25a79.js",
+    "precache-manifest.e31d9b2a040764acf178079e28a15c15.js": "/site-duarte/precache-manifest.e31d9b2a040764acf178079e28a15c15.js",
     "service-worker.js": "/site-duarte/service-worker.js",
-    "static/css/main.19b8431e.chunk.css.map": "/site-duarte/static/css/main.19b8431e.chunk.css.map",
-    "static/js/2.7d572cec.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.7d572cec.chunk.js.LICENSE.txt",
+    "static/css/main.557894bb.chunk.css.map": "/site-duarte/static/css/main.557894bb.chunk.css.map",
+    "static/js/2.e3dee7c4.chunk.js.LICENSE.txt": "/site-duarte/static/js/2.e3dee7c4.chunk.js.LICENSE.txt",
     "static/media/cozinhacincoout.jpg": "/site-duarte/static/media/cozinhacincoout.8d32ca8d.jpg",
     "static/media/doubledimage.jpg": "/site-duarte/static/media/doubledimage.dc0033a0.jpg",
     "static/media/duarte-cut.jpg": "/site-duarte/static/media/duarte-cut.d1d94e85.jpg",
+    "static/media/form-background.jpg": "/site-duarte/static/media/form-background.88556886.jpg",
     "static/media/fotoperfilduarte.jpg": "/site-duarte/static/media/fotoperfilduarte.54d81976.jpg",
     "static/media/lisbonvideo.mp4": "/site-duarte/static/media/lisbonvideo.524ab071.mp4",
     "static/media/outracozinha.jpg": "/site-duarte/static/media/outracozinha.18f106e3.jpg",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bd65abcd.js",
-    "static/js/2.7d572cec.chunk.js",
-    "static/css/main.19b8431e.chunk.css",
-    "static/js/main.35b4c653.chunk.js"
+    "static/js/2.e3dee7c4.chunk.js",
+    "static/css/main.557894bb.chunk.css",
+    "static/js/main.b4f0c445.chunk.js"
   ]
 }

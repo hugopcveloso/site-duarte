@@ -20,7 +20,7 @@ function App() {
 
 				{/* <About /> */}
 				<AreaSection />
-				{/* <FormSection /> */}
+				<FormSection />
 			</div>
 		</div>
 	);

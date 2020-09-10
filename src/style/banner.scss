@@ -42,6 +42,7 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 30px;
+	transition: opacity 0.5s ease-in-out;
 }
 
 .btn-cta-banner {
@@ -65,7 +66,46 @@
 	}
 }
 
+.scroll-arrow {
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	bottom: 90px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	&hover {
+		transition: all 1s ease-in-out;
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 @media (max-width: 600px) {
+	.hide {
+		z-index: 3;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 30px;
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
+	}
 	.video-container {
 		padding: 10px;
 	}
@@ -86,5 +126,8 @@
 	.btn-cta-banner {
 		border-radius: 0%;
 		padding: 15px;
+	}
+	.scroll-arrow {
+		font-size: 40px;
 	}
 }

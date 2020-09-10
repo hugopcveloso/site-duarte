@@ -14,11 +14,13 @@ export default class EvaluationForm extends React.Component {
 		return (
 			<form onSubmit={this.submitForm} action="https://formspree.io/xwkrgyqa" method="POST">
 				{/* <!-- add your custom form HTML here --> */}
-				<label>Email:</label>
-				<input type="email" name="email" />
-				<label>Message:</label>
-				<input type="text" name="message" />
-				{status === 'SUCCESS' ? <p>Thanks!</p> : <button>Submit</button>}
+				<label>Email:</label> <br />
+				<input type="email" name="email" className="form-input" />
+				<br />
+				<label>Message:</label> <br />
+				<textarea type="text" name="message" className="form-input" rows={5} />
+				<br />
+				{status === 'SUCCESS' ? <p>Thanks!</p> : <button className="contact-button">Submit</button>}
 				{status === 'ERROR' && <p>Ooops! There was an error.</p>}
 			</form>
 		);

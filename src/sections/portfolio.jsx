@@ -28,7 +28,7 @@ class Portfolio extends Component {
 		const nextIcon = <FontAwesomeIcon icon={faChevronRight} className="carousel-next" />;
 
 		return (
-			<div className="portfolio-container">
+			<div className="portfolio-container" id="portfolio-section">
 				<Carousel nextIcon={nextIcon} prevIcon={prevIcon}>
 					{myHouses}
 				</Carousel>

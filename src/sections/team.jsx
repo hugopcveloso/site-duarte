@@ -4,7 +4,7 @@ import Susana from '../components/susana';
 
 const Team = () => {
 	return (
-		<div className="team-container">
+		<div className="team-container" id="team-section">
 			<Duarte />
 			<Susana />
 		</div>

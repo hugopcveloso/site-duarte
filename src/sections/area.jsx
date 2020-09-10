@@ -17,7 +17,7 @@ const AreaSection = (props) => {
 	};
 
 	return (
-		<div className="area-wrapper">
+		<div className="area-wrapper" id="area-section">
 			{/* Fazer um map do area-list-data.
 			onde há um on-click, e em cada on-click
 			é enviado o  para o parent */}

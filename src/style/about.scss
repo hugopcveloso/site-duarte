@@ -33,8 +33,9 @@
 	}
 }
 #about-icons-container {
+	display: none;
 	margin-top: 10%;
-	display: grid;
+
 	grid-row-gap: 60px;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
@@ -46,9 +47,6 @@
 }
 
 @media (max-width: 1300px) {
-	#about-icons-container {
-		display: none;
-	}
 }
 
 @media (max-width: 1000px) {
